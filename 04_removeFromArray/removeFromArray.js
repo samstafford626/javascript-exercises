@@ -1,9 +1,4 @@
 const removeFromArray = function() {
-    // identify the index of target
-    // splice the target out of array
-    // repeat until indexOf returns -1
-    // loop the above process so that it executes for
-    //  as many arguments as are given
     let array = arguments[0];
     let index = 0;
 
@@ -17,8 +12,6 @@ const removeFromArray = function() {
     return array
     
 };
-// testArray = [1,2,3,2,5]
-// console.log(removeFromArray(testArray,2,3,5))
 
 // Do not edit below this line
 module.exports = removeFromArray;
